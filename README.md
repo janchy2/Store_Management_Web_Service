@@ -1,6 +1,6 @@
 # Store_Management_Web_Service
 The full description of the project requirements in Serbian is in the file IEP_PROJEKAT_2023.pdf. Following is the short description.
-The goal is to create a store management system that includes neccessary web services, where each subpart of the system runs in its own Docker container. It is written mostly in Python, using Flask and SQLAlchemy. There are two main parts: authentication and store, each using its own MySql database.
+The goal is to create a store management system that includes necessary web services, where each subpart of the system runs in its own Docker container. It is written mostly in Python, using Flask and SQLAlchemy. There are two main parts: authentication and store, each using its own MySql database.
 
 Authentication web service is used for keeping track of the users. These are its functionalities:
 - register customer
