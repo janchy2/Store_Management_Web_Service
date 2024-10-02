@@ -92,16 +92,16 @@ services:
     networks:
       - storeNetwork
 
-#  owner:
-#    image: owner
-#    environment:
-#      - DATABASE_URL=storeDatabase
-#    depends_on:
-#      - storeDatabaseMigration
-#    ports:
-#      - 5004:5004
-#    networks:
-#      - storeNetwork
+  owner:
+    image: owner
+    environment:
+      - DATABASE_URL=storeDatabase
+    depends_on:
+      - storeDatabaseMigration
+    ports:
+      - 5004:5004
+    networks:
+      - storeNetwork
 
   ganache-cli:
     image: trufflesuite/ganache-cli
